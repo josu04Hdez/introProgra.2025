@@ -1,0 +1,9 @@
+
+        String mensaje = "El Conductor \"" + conductor.getNombre() + "\" código: " + conductor.getCodigoEmpleado() +
+                         "\nRecorrió un total de " + totalDistancia + " km." +
+                         "\nObtuvo un total en comisiones de $" + totalComision +
+                         "\n" + (bonoExtra ? "El conductor logró el objetivo de obtener el BONO EXTRA." : "El conductor no obtuvo el bono extra.") +
+                         "\nPuntos obtenidos por el conductor: " + totalPuntos +
+                         "\nLicencia Profesional: " + (licenciaProfesional ? "Sí" : "No") +
+                         "\nRuta asignada: " + conductor.getRutaAsignada();}
+    
